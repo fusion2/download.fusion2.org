@@ -158,7 +158,7 @@ if(in_array($ext, $blacklist)) {
     die($ext." is not an allowed extension.");
 }
 if(strpos($path, '../') !== false || strpos($path, '..\\') !== false || strpos(realpath($baseDir.'/'.$path), 'public_html') == false) {
-    die("<meta http-equiv=\"refresh\" content=\"5;url=http://androxfer.in/\" /> Error: 2 [ Not Allowed ]");
+    die("<meta http-equiv=\"refresh\" content=\"5;url=http:/fusion2.org/\" /> Error: 2 [ Not Allowed ]");
 }
 
 $location = $baseDir."/.counts";
@@ -301,7 +301,7 @@ countDownObj.count(i);
 function do_download(){
 var newtext = "Initializing File Download...";
 document.getElementById('counttext').innerHTML = newtext;
-document.location.href='http://androxfer.in/get.php?p=<?=$_GET['p']?>&countdown=1';
+document.location.href='http://fusion2.org/get.php?p=<?=$_GET['p']?>&countdown=1';
 }
 </script>
 
@@ -373,7 +373,7 @@ countDownObj.count(i);
 function do_download(){
 var newtext = "Initializing File Download...";
 document.getElementById('counttext').innerHTML = newtext;
-document.location.href='http://androxfer.in/get.php?p=<?=$_GET['p']?>&countdown=1';
+document.location.href='http://fusion2.org/get.php?p=<?=$_GET['p']?>&countdown=1';
 }
 </script>
 
@@ -459,7 +459,7 @@ countDownObj.count(i);
 function do_download(){
 var newtext = "Initializing File Download...";
 document.getElementById('counttext').innerHTML = newtext;
-document.location.href='http://androxfer.in/get.php?p=<?=$_GET['p']?>&directserve=1';
+document.location.href='http:/fusion2.org/get.php?p=<?=$_GET['p']?>&directserve=1';
 }
 </script>
 
