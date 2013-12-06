@@ -25,7 +25,7 @@ define("GB", ONE_K * MB);
 define("TB", ONE_K * GB);
 
 // Site
-$siteName = "androtransfer.com";
+$siteName = "fuison2.com";
 $baseDir = ".";
 $users = explode("\n", file_get_contents($baseDir.'/.users'));
 $globalBlacklist = array(
